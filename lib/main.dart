@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/container.dart';
+// import 'package:my_app/container.dart';
 import 'package:my_app/homepage.dart';
 
 void main() {
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHome(),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
     // return MaterialApp(title: "Dilu's App", home: MyHome());
     // Scaffold(
